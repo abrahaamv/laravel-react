@@ -3,7 +3,7 @@ import './main.css'
 import { myProjects } from './myProjects'
 import { AnimatePresence, motion } from 'framer-motion'
 
-export default function Main() {
+const Main = () => {
   const [arr, setArr] = useState(myProjects)
   const [currentActive, setcurrentActive] = useState('all')
 
@@ -55,7 +55,7 @@ export default function Main() {
           }}
           className={currentActive === 'react' ? 'active' : null}
         >
-          React &  Laravel
+          React & MUI
         </button>
         <button
           onClick={() => {
@@ -112,3 +112,4 @@ export default function Main() {
   )
 }
 
+export default Main

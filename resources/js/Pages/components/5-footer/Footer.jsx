@@ -1,6 +1,6 @@
 import './footer.css'
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className='flex'>
       <ul className='flex'>
@@ -10,7 +10,9 @@ export default function Footer() {
         <li><a href=''>Contact</a></li>
       </ul>
 
-      <p>© 2024 Abrahaam Véliz. Full Stack developer portfolio</p>
+      <p>-Writing Code, One Coffee at a Time</p>
     </footer>
   )
 }
+
+export default Footer

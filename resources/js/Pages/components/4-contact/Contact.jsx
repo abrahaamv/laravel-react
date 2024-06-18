@@ -4,7 +4,7 @@ import Lottie from 'lottie-react'
 import doneAnimation from '../../animation/done.json'
 import contactAnimation from '../../animation/contact.json'
 
-export default function Contact() {
+const Contact = () => {
   const [state, handleSubmit] = useForm('xayrongy')
 
   return (
@@ -60,3 +60,5 @@ export default function Contact() {
     </section>
   )
 }
+
+export default Contact

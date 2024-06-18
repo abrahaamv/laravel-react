@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './header.css'
 
-export default function Header() {
+const Header = () => {
   const [showModal, setShowModal] = useState(false)
   const [theme, setTheme] = useState(localStorage.getItem('currentMode') ?? 'dark')
 
@@ -56,3 +56,4 @@ export default function Header() {
   )
 }
 
+export default Header
