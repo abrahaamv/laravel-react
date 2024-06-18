@@ -60,7 +60,7 @@ export default function Hero() {
         </p>
 
         <div className='all-icons flex'>
-          <button className='download-button' onClick={() => { }}>Download CV</button>
+          <button className='download-button' onClick={downloadPdf}>Download CV</button>
           <div className='icon icon-twitter' />
           <div className='icon icon-instagram' />
           <div className='icon icon-github' />
