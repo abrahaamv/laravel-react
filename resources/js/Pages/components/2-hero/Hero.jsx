@@ -49,7 +49,7 @@ export default function Hero() {
           transition={{ duration: 1.5 }}
           className='title'
         >
-          Full Stack Junior developer, Based in Guatemala City.
+          Full Stack Junior developer, based in Guatemala City.
         </motion.h1>
 
         <p className='sub-title'>
